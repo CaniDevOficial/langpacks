@@ -1,0 +1,11 @@
+Subject: {USERNAME} a réagit à votre message
+
+Hi,
+
+"{USERNAME}" a réagi à un message que vous avez publié sur "{SITENAME}".
+
+Pour consulter le message, utilisez ce lien :
+{U_LINK}
+
+
+{EMAIL_SIG}
