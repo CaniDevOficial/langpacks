@@ -1,2 +1,2 @@
 # langpacks
-Langpacks for phpBB Extensions
+Langpacks for extensions available at canidev.com
