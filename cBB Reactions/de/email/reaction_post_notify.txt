@@ -1,0 +1,11 @@
+Subject: {USERNAME} hat auf deinen Beitrag reagiert
+
+Hallo,
+
+"{USERNAME}" hat auf einen Beitrag von dir bei "{SITENAME}" reagiert.
+
+Um den Beitrag anzusehen, klicke auf folgenden Link:
+{U_LINK}
+
+
+{EMAIL_SIG}
