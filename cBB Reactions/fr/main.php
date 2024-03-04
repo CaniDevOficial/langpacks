@@ -4,9 +4,9 @@
  * French translation by cabot (https://cabotweb.fr)
  * 
  * @package cBB Reactions
- * @version 1.0.1 15/01/2023
- * 
- * @copyright (c) 2023 CaniDev
+ * @version 1.0.3 26/02/2024
+ *
+ * @copyright (c) 2024 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -45,6 +45,13 @@ $lang = array_merge($lang, [
 	'REACTIONS_ALL'		=> 'Toutes',
 	'REACTIONS_SCORE'	=> 'Notes',
 	'TOTAL_REACTIONS'	=> 'Réactions',
+
+	'TOTAL_REACTIONS_LABEL'	=> [
+		1	=> 'A réagi à %d message',
+		2	=> 'A réagi à %d messages',
+	],
+
+	'REACTIONS_USER_SCORE'	=> 'Score de réactions',
 
 	'REACTION_ANGRY'	=> 'Grrr',
 	'REACTION_ENJOY'	=> 'Haha',

@@ -4,9 +4,9 @@
  * French translation by cabot (https://cabotweb.fr)
  *
  * @package cBB Reactions
- * @version 1.0.1 15/01/2023
+ * @version 1.0.3 26/02/2024
  *
- * @copyright (c) 2023 CaniDev
+ * @copyright (c) 2024 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -29,6 +29,8 @@ if(empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'ACP_REACTIONS_CONFIG_EXPLAIN'	=> 'Configuration des options relatives aux réactions.',
 	'ACP_REACTIONS_MANAGE_EXPLAIN'	=> 'Configuration des réactions disponibles sur le forum.',
+	'ABOVE'							=> 'Au-dessus de',
+	'BELOW'							=> 'Ci-dessous',
 	'ENABLE_DISABLE'				=> 'Activer/Désactiver',
 	'ERROR_REACTION_NO_EXISTS'		=> 'La réaction sélectionnée n’existe pas',
 	'ERROR_SCORE_INVALID'			=> 'La note définie n’est pas valide',
@@ -49,6 +51,8 @@ $lang = array_merge($lang, [
 	'REACTIONS_ALLOW_CHANGE_EXPLAIN'	=> 'Définit si les utilisateurs peuvent modifier leur réaction aux messages.',
 	'REACTIONS_ALLOW_MYSELF'			=> 'Autoriser les auto-réactions',
 	'REACTIONS_ALLOW_MYSELF_EXPLAIN'	=> 'Si activé, les utilisateurs pourront réagir à leurs propres messages.',
+	'REACTIONS_BUTTON_POSITION'			=> 'Emplacement des boutons',
+	'REACTIONS_BUTTON_POSITION_EXPLAIN'	=> 'Définit où le bouton pour réagir apparaîtra dans le message.',
 	'REACTIONS_FORCE_ATTACH'			=> 'Forcer la réaction pour afficher les pièces jointes',
 	'REACTIONS_FORCE_ATTACH_EXPLAIN'	=> 'Si activé, les utilisateurs devront réagir à un message pour voir ses pièces jointes.',
 	'REACTIONS_FORCE_REPLY'				=> 'Forcer la réaction pour répondre',
@@ -57,6 +61,8 @@ $lang = array_merge($lang, [
 	'REACTIONS_LIST_ORDER_EXPLAIN'		=> 'Définissez les critères qui seront utilisés pour trier les utilisateurs dans la liste des réactions.',
 	'REACTIONS_ORDER_TIME'				=> 'Date de la réaction',
 	'REACTIONS_ORDER_USERNAME'			=> 'Nom d’utilisateur',
+	'REACTIONS_SCORE_ON_PROFILE'		=> 'Afficher le score sur le profil',
+	'REACTIONS_SCORE_ON_PROFILE_EXPLAIN'	=> 'S\'il est activé, le score de réaction obtenu par chaque utilisateur sera affiché sur son profil.',
 	'REACTIONS_ZONE_ALL'				=> 'Tous les messages',
 	'REACTIONS_ZONE_ONLY_FIRST_POST'	=> 'Premier message uniquement',
 	'REACTIONS_ZONE_ONLY_REPLIES'		=> 'Réponses uniquement',
