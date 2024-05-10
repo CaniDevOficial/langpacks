@@ -1,0 +1,13 @@
+Oggetto: {USERNAME} ha condiviso il tuo commento
+
+Salve,
+
+"{USERNAME}" ha condiviso un commento da te su "{SITENAME}".
+
+Per visualizzare il commento, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}

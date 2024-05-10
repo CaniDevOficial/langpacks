@@ -1,0 +1,14 @@
+Oggetto: Nuovo compleanno
+
+Salve,
+
+Oggi è il compleanno di {FOLLOWER_NAME}.
+
+Per vedere il profilo dell'utente, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}
+

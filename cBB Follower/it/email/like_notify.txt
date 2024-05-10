@@ -1,0 +1,14 @@
+Oggetto: Hai ricevuto un nuovo Mi piace
+
+Salve,
+
+"{AUTHOR_NAME}" ha indicato che gli piace un tuo messaggio su "{SITENAME}".
+
+Per vedere il messaggio, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}
+

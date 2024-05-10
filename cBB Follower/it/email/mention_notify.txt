@@ -1,0 +1,13 @@
+Oggetto: Sei stato menzionato
+
+Salve,
+
+Sei stato menzionato da "{AUTHOR_NAME}" su "{SITENAME}".
+
+Per vedere il messaggio in cui sei stato menzionato, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}

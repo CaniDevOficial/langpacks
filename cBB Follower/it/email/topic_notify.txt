@@ -1,0 +1,13 @@
+Oggetto: Nuovo argomento da {AUTHOR_NAME}
+
+Salve,
+
+"{AUTHOR_NAME}" ha pubblicato un nuovo argomento su "{SITENAME}".
+
+Per vedere l'argomento creato, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}

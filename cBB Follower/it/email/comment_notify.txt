@@ -1,0 +1,13 @@
+Oggetto: Hanno pubblicato sul tuo profilo
+
+Salve,
+
+"{AUTHOR_NAME}" ha pubblicato un messaggio sul tuo profilo su "{SITENAME}".
+
+Per vedere il messaggio, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}

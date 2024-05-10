@@ -1,0 +1,6 @@
+
+La seguente è una e-mail che ti è stata inviata da "{SITENAME}" per {FROM_USERNAME} dal form di contatto:
+
+----------
+
+{MESSAGE}

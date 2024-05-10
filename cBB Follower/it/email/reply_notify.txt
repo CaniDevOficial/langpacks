@@ -1,0 +1,13 @@
+Oggetto: Nuova risposta al tuo commento
+
+Salve,
+
+"{AUTHOR_NAME}" ha risposto a un tuo commento su "{SITENAME}".
+
+Per vedere la risposta, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}

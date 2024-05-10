@@ -1,0 +1,13 @@
+Oggetto: Nuovo messaggio da {AUTHOR_NAME}
+
+Salve,
+
+"{AUTHOR_NAME}" ha pubblicato un nuovo messaggio su "{SITENAME}".
+
+Per vedere il messaggio, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Oggetto: {USERNAME} ha reagito al tuo post
+
+Salve,
+
+"{USERNAME}" ha reagito ad un tuo post su "{SITENAME}".
+
+Per vedere il post, usa questo collegamento:
+{U_LINK}
+
+
+{EMAIL_SIG}

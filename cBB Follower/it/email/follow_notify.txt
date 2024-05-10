@@ -1,0 +1,13 @@
+Oggetto: Nuovo follower
+
+Salve,
+
+{FOLLOWER_NAME} ha iniziato a seguirti su "{SITENAME}".
+
+Per vedere il profilo dell'utente, utilizza questo link:
+{U_ITEM_LINK}
+
+Per smettere di ricevere questo tipo di notifiche, utilizza questo link:
+{U_UNSUBSCRIBE}
+
+{EMAIL_SIG}
