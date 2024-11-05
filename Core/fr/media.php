@@ -1,14 +1,12 @@
 <?php
 /**
-* [French [Fr]]]
-* French translation by cabot (https://cabotweb.fr)
-*
-* @package Ext Common Core
-* @version 1.1.1 15/01/2023
-*
-* @copyright (c) 2023 CaniDev
-* @license https://creativecommons.org/licenses/by-nc/4.0/
-*/
+ * [French [fr]]] by team caforum (https://caforum.fr/forum/)
+ * @package Ext Common Core
+ * @version 1.1.6 17/06/2024
+ *
+ * @copyright (c) 2024 CaniDev
+ * @license https://creativecommons.org/licenses/by-nc/4.0/
+ */
 
 // @ignore
 if(!defined('IN_PHPBB'))
@@ -21,61 +19,56 @@ if(empty($lang) || !is_array($lang))
 	$lang = [];
 }
 
-//
-// Some characters you may want to copy&paste:
-// ’ « » “ ” …
-//
-
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'COPY_TO_LIST'			=> 'Copier dans la liste actuelle',
 	'CREATE_SERVER_COPY'	=> 'Créer une copie sur ce serveur',
-	'DELETE_FROM_LIST'		=> 'Retirer de la liste',
-	'DELETE_ICON'			=> 'Supprimer l’icône',
-	'DELETE_IMAGE'			=> 'Supprimer l’image',
-	'DELETE_PERMANENTLY'	=> 'Supprimer définitivement',
-	'ICON_PREVIEW'			=> 'Aperçu de l’icône',
+	'DELETE_FROM_LIST'		=> 'Supprimer de la liste',
+	'DELETE_ICON'			=> 'Supprimer l‘icône',
+	'DELETE_IMAGE'			=> 'Supprimer l‘image',
+	'DELETE_PERMANENTLY'	=> 'Effacé définitivement',
+	'ICON_PREVIEW'			=> 'Prévisualiser l‘icône',
 	'IMAGE_DESCRIPTION'		=> 'Description',
-	'IMAGE_DETAILS'			=> 'Détails de l’image',
+	'IMAGE_DETAILS'			=> 'Détails de l‘image',
 	'IMAGE_DIMENSIONS'		=> '<%width%> × <%height%> pixels',
-	'IMAGE_SAVE_ERROR'		=> 'L’image n’a pas pu être sauvegardée',
-	'IMAGE_TITLE'			=> 'Title',
-	'IMAGE_URL'				=> 'URL',
-	'INSERT_ON_ENTRY'		=> 'Insérer sur le texte',
+	'IMAGE_SAVE_ERROR'		=> 'Impossible d‘enregistrer l‘image',
+	'IMAGE_TITLE'			=> 'Titre',
+	'IMAGE_URL'				=> 'Url',
+	'INSERT_ON_ENTRY'		=> 'Insérer dans le texte',
 	'FILES_DELETED'			=> 'Fichiers supprimés',
-	'FILES_DRAG'			=> 'Glisser et déposer les fichiers à envoyer',
-	'FILES_DROP'			=> 'Déposer les fichiers à transférer',
-	'FILES_REMOVE_CONFIRM'	=> 'Vous êtes sur le point de supprimer définitivement les fichiers sélectionnés<br>Voulez-vous continuer ?',
+	'FILES_DRAG'			=> 'Glissez-déposez les fichiers à télécharger',
+	'FILES_DROP'			=> 'Déposez les fichiers à télécharger',
+	'FILES_REMOVE_CONFIRM'	=> 'Vous êtes sur le point de supprimer définitivement les fichiers sélectionnés <br /> Voulez-vous continuer ?',
 	'FORMAT_INVALID'		=> 'Format invalide',
-	'MAX_IMAGESIZE'			=> 'Les images seront redimensionnées en %d x %d pixels.',
-	'MAX_FILESIZE'			=> 'Taille maximale du fichier : %s.',
-	'MEDIA_UPDATED'			=> 'Modifications enregistrées',
+	'MAX_IMAGESIZE'			=> 'Les images seront redimensionnées à %d x %d pixels.',
+	'MAX_FILESIZE'			=> 'Taille maximum de fichier  %s.',
+	'MEDIA_UPDATED'			=> 'Changements sauvegardés',
 	'OR'					=> 'ou',
-	'PROCCESS'				=> 'Traitement',
-	'SELECT_ICON'			=> 'Sélectionnez une nouvelle icône',
-	'SELECT_IMAGE'			=> 'Sélectionnez une nouvelle image',
-	'SELECT_FILE'			=> 'Sélectionnez un fichier',
-	'SELECT_FILES'			=> 'Sélectionnez des fichiers',
-	'SELECTED_COUNT'		=> '<span class="value">0</span> sélectionné',
-	'SET_ICON'				=> 'Configurer l’icône',
-	'SET_IMAGE'				=> 'Configurer l’image',
-	'UPDATE'				=> 'Mise à jour',
-	'UPLOADING_FILES'		=> 'Transfert des fichiers...',
+	'PROCCESS'				=> 'Traiter',
+	'SELECT_ICON'			=> 'Sélectionner un nouvel icône',
+	'SELECT_IMAGE'			=> 'Sélectionner une nouvelle image',
+	'SELECT_FILE'			=> 'Choisir le dossier',
+	'SELECT_FILES'			=> 'Choisir les dossiers',
+	'SELECTED_COUNT'		=> '<span class="value">0</span> choisie',
+	'SET_ICON'				=> 'Définir l‘icône',
+	'SET_IMAGE'				=> 'Définir l‘image',
+	'UPDATE'				=> 'Mettre à jour',
+	'UPLOADING_FILES'		=> 'Téléchargement de fichiers...',
 	
 	'CURRENT_LIST'		=> 'Liste actuelle',
-	'GALLERY'			=> 'Galerie',
+	'GALLERY'			=> 'Gallerie',
 	'ICONS'				=> 'Icônes',
-	'INSERT_URL'		=> 'Ajouter depuis une URL',
-	'UPLOAD_IMAGE'		=> 'Téléverser une image',
+	'INSERT_URL'		=> 'Insérer à partir de l‘URL',
+	'UPLOAD_IMAGE'		=> 'Télécharger une image',
 	
 	'ICON_BRAND'			=> 'Marque',
-	'ICON_DIRECTIONAL'		=> 'Direction',
+	'ICON_DIRECTIONAL'		=> 'Directionnel',
 	'ICON_FILE_TYPE'		=> 'Type de fichier',
 	'ICON_GENDER'			=> 'Genre',
 	'ICON_HAND'				=> 'Main',
 	'ICON_MEDICAL'			=> 'Médical',
-	'ICON_PAYMENT'			=> 'Paiement et devises',
+	'ICON_PAYMENT'			=> 'Paiement et devise',
 	'ICON_TEXT_EDITOR'		=> 'Éditeur de texte',
 	'ICON_TRANSPORTATION'	=> 'Transport',
 	'ICON_VIDEO_PLAYER'		=> 'Lecteur vidéo',
-	'ICON_WEB_APPLICATION'	=> 'Application web',
-));
+	'ICON_WEB_APPLICATION'	=> 'Application Web ',
+]);
