@@ -1,12 +1,12 @@
 <?php
 /**
-* [French [fr]] by team caforum (https://caforum.fr/forum/)
-* @package cBB QuickMod
-* @version 1.1.4 01/06/2022
-*
-* @copyright (c) 2022 CaniDev
-* @license https://creativecommons.org/licenses/by-nc/4.0/
-*/
+ * [French [fr]] by team caforum (https://caforum.fr/forum/)
+ * @package cBB QuickMod
+ * @version 1.1.6 01/11/2024
+ *
+ * @copyright (c) 2024 CaniDev
+ * @license https://creativecommons.org/licenses/by-nc/4.0/
+ */
 
 // DO NOT CHANGE
 if(!defined('IN_PHPBB'))
@@ -16,10 +16,10 @@ if(!defined('IN_PHPBB'))
 
 if(empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'APPROVE_TOPIC'			=> 'Approuver',
 	'CHANGE_ICON'			=> 'Changer l‘icône',
 	'CHANGE_ICON_TOPIC'		=> 'Changer l‘icône',
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	
 	'DELETE_TOPIC'				=> 'Supprimer',
 	'DELETE_PERMANENTLY_TOPIC'	=> 'Supprimer définitivement',
-	'LOCK_TOPIC'				=> 'Vérouiller',
+	'FORK_TOPIC'				=> 'Copie',
 	'MAKE_ANNOUNCE_TOPIC'		=> 'Changer en annonce',
 	'MAKE_GLOBAL_TOPIC'			=> 'Changer en annonce globale',
 	'MAKE_NORMAL_TOPIC'			=> 'Changer en sujet normal',
@@ -62,10 +62,13 @@ $lang = array_merge($lang, array(
 	
 	'MOVE_TOPIC'			=> 'Déplacer',
 	'NO_TOPIC_SELECTED'		=> 'Aucun sujet sélectionné',
-	'OPTIONS_BASIC'			=> 'Options basiques',
-	'OPTIONS_ADVANCED'		=> 'Options avancées',
+	'OPTIONS_APPROVE'		=> 'Actions pour approuver',
+	'OPTIONS_LOCK'			=> 'Actions pour verrouiller',
+	'OPTIONS_REMOVE'		=> 'Actions pour supprimer',
+	'OPTIONS_TOOLS'			=> 'Outils',
 	'RENAME_TOPIC'			=> 'Renommer',
 	'RESTORE_TOPIC'			=> 'Restaurer',
+	'RESYNC_TOPIC'			=> 'Synchroniser',
 	'TOPIC_TYPE'			=> 'Type de sujet',
 	'UNLOCK_TOPIC'			=> 'Dévérouiller',
 
@@ -74,8 +77,11 @@ $lang = array_merge($lang, array(
 	'SELECT_ACTION'			=> 'Sélectionner une action',
 	'WITH_SELECTED'			=> 'Avec sélection',
 
-	'AUTHOR_CHANGE_SUCCESS'	=> 'L‘auteur des sujets a été modifié correctement.',
+	'AUTHOR_CHANGE_SUCCESS'	=> 'L\'auteur des sujets a été modifié correctement.',
+	'ICON_CHANGE_SUCCESS'	=> 'L\'icône a été modifiée correctement.',
+	'TIME_CHANGE_SUCCESS'	=> 'L\'heure a été modifiée correctement.',
 	'TOPIC_RENAMED_SUCCESS'	=> 'Le sujet a été renommé correctement.',
 	
-	'CORE_INSTALL_ERROR'	=> 'Vous n‘avez pas téléchargé tous les fichiers du package d‘installation ou vous essayez d‘installer un ancien package.<br />Assurez-vous de télécharger tous les fichiers (y compris le dossier <em>core</em>) et d‘utiliser un package téléchargé depuis le site officiel.',
-));
+	'CORE_INSTALL_ERROR'	=> 'Vous n‘avez pas téléchargé tous les fichiers du package d‘installation ou vous essayez d‘installer un ancien package.<br />
+		Assurez-vous de télécharger tous les fichiers (y compris le dossier <em>core</em>) et d‘utiliser un package téléchargé depuis le site officiel.',
+]);
