@@ -2,9 +2,9 @@
 /**
  * [Italiano [It]]
  * @package cBB Follower
- * @version 2.0.4 30/10/2023
+ * @version 2.0.6 24/02/2025
  *
- * @copyright (c) 2023 CaniDev & Lord Phobos
+ * @copyright (c) 2025 CaniDev & Lord Phobos
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -25,6 +25,8 @@ $lang = array_merge($lang, [
 	'ERROR_ABOUTME_TOO_LONG'	=> 'Il campo "Su di me" contiene più caratteri del consentito',
 	'HEADER_IMAGE'				=> 'Immagine del profilo',
 	'HEADER_IMAGE_EXPLAIN'		=> 'Immagine che verrà visualizzata come sfondo dell\'intestazione del tuo profilo.',
+	'PUBLIC_PROFILE'			=> 'Profilo pubblico',
+	'PUBLIC_PROFILE_EXPLAIN'	=> 'Se abilitata, tutti gli utenti con autorizzazione di amministratore potranno vedere il tuo muro, altrimenti solo gli utenti aggiunti come "Amici" potranno vederlo.',
 	
 	// Notifiche
 	'NOTIFICATION_GROUP_FOLLOWER'	=> 'Notifiche del follower dell\'utente',

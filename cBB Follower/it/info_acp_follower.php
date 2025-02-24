@@ -2,9 +2,9 @@
 /**
  * [Italiano [It]]
  * @package cBB Follower
- * @version 2.0.4 30/10/2023
+ * @version 2.0.6 24/02/2025
  *
- * @copyright (c) 2023 CaniDev & Lord Phobos
+ * @copyright (c) 2025 CaniDev & Lord Phobos
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -36,6 +36,8 @@ $lang = array_merge($lang, [
 	'FWR_ALLOW_COMMENTS'			=> 'Attiva commenti tra utenti',
 	'FWR_DEFAULT_PROFILE'			=> 'Imposta come profilo predefinito',
 	'FWR_DEFAULT_PROFILE_EXPLAIN'	=> 'Se abilitato, il muro e l\'attività degli utenti verranno visualizzati invece del loro profilo convenzionale.',
+	'FWR_ENABLE_MENTIONS'			=> 'Attiva le menzioni',
+	'FWR_ENABLE_MENTIONS_EXPLAIN'	=> 'Definisce se nel forum sarà abilitata la funzione di menzione degli utenti.',
 	'FWR_MAXLENGTH'					=> 'Massimo caratteri',
 	'FWR_MAXLENGTH_EXPLAIN'			=> 'Limite di caratteri consentiti nei commenti.',
 	'FWR_POPUP_ALL'					=> 'Mostra in tutto il forum',
@@ -57,16 +59,8 @@ $lang = array_merge($lang, [
 	'FWR_USER_POPUP'				=> 'Mostra casella informazioni flottante',
 	'FWR_USER_POPUP_EXPLAIN'		=> 'Determina in quali circostanze verrà visualizzata una casella informazioni flottante con le informazioni dell\'utente quando il mouse si muove sopra il suo nome.',
 	
-	'NO_LIMIT'		=> 'Nessun limite',
-	'ONE_DAY'		=> 'Un giorno',
-	'ONE_WEEK'		=> 'Una settimana',
-	'ONE_MONTH'		=> 'Un mese',
-	'ONE_YEAR'		=> 'Un anno',
-	'TWO_YEARS'		=> 'Due anni',
-	
 	'LOG_FWR_CONFIG'				=> '<strong>cBB Follower<\/strong> Modificata la configurazione principale',
 	'LOG_FWR_RESYNC_COMMENTS'		=> '<strong>cBB Follower<\/strong> Sincronizzati i commenti',
 	'LOG_FWR_RESYNC_FOLLOWERS'		=> '<strong>cBB Follower<\/strong> Sincronizzati i follower',
 	'LOG_FWR_RESYNC_INTERACTIONS'	=> '<strong>cBB Follower<\/strong> Sincronizzate le interazioni',
-
 ]);

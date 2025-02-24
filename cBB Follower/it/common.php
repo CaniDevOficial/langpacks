@@ -2,9 +2,9 @@
 /**
  * [Italian [It]]
  * @package cBB Follower
- * @version 2.0.4 30/10/2023
+ * @version 2.0.6 24/02/2025
  *
- * @copyright (c) 2023 CaniDev & Lord Phobos
+ * @copyright (c) 2025 CaniDev & Lord Phobos
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -92,7 +92,9 @@ $lang = array_merge($lang, [
 	'POST_ROW'			=> '<span style="font-weight:bold;font-size:0.9em;">Messaggio:</span> <a href="%1$s">%2$s</a><br /><span class="row-small">%3$s</span>',
 	'TOPIC_ROW'			=> '<span style="font-weight:bold;font-size:0.9em;">Argomento:</span> <a href="%1$s">%2$s</a><br /><span class="row-small"> &raquo; In <a href="%3$s">%4$s</a></span>',
 	
-	// Notifiche
+	'ERROR_PRIVATE_PROFILE'		=> 'Il profilo a cui stai tentando di accedere è privato. Per visualizzarlo è necessario chiedere il permesso all\'utente.',
+
+	// Notifications
 	'FW_NOTIFICATION_BIRTHDAY'			=> '<strong>Oggi è il compleanno di %s</strong><br />Scrivi qualcosa sul suo muro per congratularti',
 
 	'FW_NOTIFICATION_COMMENT'			=> [
@@ -124,7 +126,6 @@ $lang = array_merge($lang, [
 	'SUBSCRIPTION_REMOVED'				=> 'La sottoscrizione è stata rimossa con successo.',
 
 	// Installazione
-	'EXT_INSTALL_ERROR'		=> 'Questa estensione non è compatibile con alcune estensioni installate.<br />Consulta la documentazione per ulteriori informazioni.',
 	'CORE_INSTALL_ERROR'	=> 'Non hai caricato tutti i file dal pacchetto di installazione o stai cercando di installare un vecchio pacchetto.<br />
 		Assicurati di caricare tutti i file (compresa la cartella <em>core</em>) e di utilizzare un pacchetto scaricato dal sito web ufficiale.',
 

@@ -2,9 +2,9 @@
 /**
  * [Italiano [It]]
  * @package cBB Follower
- * @version 2.0.4 30/10/2023
+ * @version 2.0.6 24/02/2025
  *
- * @copyright (c) 2023 CaniDev & Lord Phobos
+ * @copyright (c) 2025 CaniDev & Lord Phobos
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -28,6 +28,6 @@ $lang = array_merge($lang, [
 	'ACL_U_FWR_MENTION'			=> 'Può menzionare gli utenti',
 	'ACL_U_FWR_PUBLISH'			=> 'Può pubblicare commenti sul proprio profilo',
 	
-	'ACL_M_FOLLOWER_MANAGE'		=> 'Può modificare/eliminare commenti',
-
+	'ACL_M_FOLLOWER_MANAGE'			=> 'Può modificare/eliminare commenti',
+	'ACL_M_FOLLOWER_VIEW_PRIVATE'	=> 'Puoi visualizzare i profili privati',
 ]);
