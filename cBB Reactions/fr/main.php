@@ -4,9 +4,9 @@
  * French translation by cabot (https://cabotweb.fr)
  * 
  * @package cBB Reactions
- * @version 1.0.3 26/02/2024
+ * @version 1.0.4 01/04/2025
  *
- * @copyright (c) 2024 CaniDev
+ * @copyright (c) 2025 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -37,9 +37,17 @@ $lang = array_merge($lang, [
 
 	'REACTIONS_NOTIFICATION_TYPE_POST'	=> 'Quelqu’un a réagi à un message que vous avez publié',
 
-	'REACTION_SCORE_LABEL_SIMPLE'			=> '%1$s',
-	'REACTION_SCORE_LABEL_COUNT_ONE'		=> '%1$s et un autre utilisateur',
-	'REACTION_SCORE_LABEL_COUNT_MULTIPLE'	=> '%1$s et %2$d autres utilisateurs',
+	'REACTION_SCORE_LABEL_ANONYMOUS'		=> [
+		1	=> '1 utilisateur a réagi',
+		2	=> '%d utilisateurs ont réagi',
+	],
+	
+	'REACTION_SCORE_LABEL_SIMPLE'		=> '%1$s',
+	
+	'REACTION_SCORE_LABEL_COUNT'		=> [
+		1	=> '%1$s et un autre utilisateur',
+		2	=> '%1$s et %2$d autres utilisateurs',
+	],
 	
 	'REACTIONS'			=> 'Réactions',
 	'REACTIONS_ALL'		=> 'Toutes',

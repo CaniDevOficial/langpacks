@@ -4,9 +4,9 @@
  * French translation by cabot (https://cabotweb.fr)
  * 
  * @package cBB Reactions
- * @version 1.0.3 26/02/2024
+ * @version 1.0.4 01/04/2025
  *
- * @copyright (c) 2024 CaniDev
+ * @copyright (c) 2025 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 

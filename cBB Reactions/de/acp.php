@@ -2,9 +2,9 @@
 /**
  * [German [De]]
  * @package cBB Reactions
- * @version 1.0.3 26/02/2024
+ * @version 1.0.4 01/04/2025
  *
- * @copyright (c) 2024 CaniDev
+ * @copyright (c) 2025 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -44,12 +44,19 @@ $lang = array_merge($lang, [
 	'REACTIONS_ALLOW_CHANGE_EXPLAIN'	=> 'Legt fest, ob eine Reaktion nachträglich geändert werden kann.',
 	'REACTIONS_ALLOW_MYSELF'			=> 'Reaktion auf eigene Beiträge',
 	'REACTIONS_ALLOW_MYSELF_EXPLAIN'	=> 'Wenn aktiviert, dürfen Nutzer auf ihre eigenen Beiträge reagieren.',
+	'REACTIONS_ANONYMOUS'				=> 'nonyme Reaktionen',
+	'REACTIONS_ANONYMOUS_EXPLAIN'		=> 'Aktivieren Sie diese Option, wenn Benutzernamen nicht in Reaktionslisten angezeigt werden sollen.<br />
+		<em>Diese Option betrifft nicht Benutzer mit der Berechtigung zum Moderieren von Reaktionen.</em>',
 	'REACTIONS_BUTTON_POSITION'			=> 'Position der Schaltfläche',
 	'REACTIONS_BUTTON_POSITION_EXPLAIN'	=> 'Legt fest, wo die Schaltfläche zur Reaktion auf eine Nachricht erscheint.',
 	'REACTIONS_FORCE_ATTACH'			=> 'Reaktion erforderlich für Anhänge',
 	'REACTIONS_FORCE_ATTACH_EXPLAIN'	=> 'Wenn aktiviert, müssen Nutzer reagieren um Anhänge zu sehen.',
 	'REACTIONS_FORCE_REPLY'				=> 'Reaktion erforderlich für Antwort',
 	'REACTIONS_FORCE_REPLY_EXPLAIN'		=> 'Wenn aktiviert, müssen Nutzer auf den ersten Beitrag in einem Thema reagieren, um zu antworten.',
+	'REACTIONS_FORUMS'					=> 'Foren, in denen Benutzer reagieren können',
+	'REACTIONS_FORUMS_EXPLAIN'			=> 'Definiert die Foren, in denen Reaktionen angezeigt werden.<br />
+		Wenn Sie keine auswählen, werden die Reaktionen in allen Foren angezeigt.<br />
+		Sie können mit der <em>Strg</em>-Taste beliebig viele auswählen.',
 	'REACTIONS_LIST_ORDER'				=> 'Sortierreihenfolge',
 	'REACTIONS_LIST_ORDER_EXPLAIN'		=> 'Legt die Sortierreihenfolge in der Liste der Reaktionen fest.',
 	'REACTIONS_ORDER_TIME'				=> 'Reaktionszeitpunkt',
@@ -66,6 +73,7 @@ $lang = array_merge($lang, [
 	'SCORE_CUSTOM'			=> 'Benutzerdefiniert',
 	'SCORE_CUSTOM_VALUE'	=> 'Benutzerdefiniert (%s)',
 	'SELECT_COLOUR'			=> 'Farbe wählen',
+	'SET_AS_DEFAULT'		=> 'Als Standard festlegen',
 
 	'scores' 	=> [
 		1 		=> 'Positiv (+1)',

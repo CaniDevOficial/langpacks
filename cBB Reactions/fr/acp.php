@@ -4,9 +4,9 @@
  * French translation by cabot (https://cabotweb.fr)
  *
  * @package cBB Reactions
- * @version 1.0.3 26/02/2024
+ * @version 1.0.4 01/04/2025
  *
- * @copyright (c) 2024 CaniDev
+ * @copyright (c) 2025 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -51,12 +51,19 @@ $lang = array_merge($lang, [
 	'REACTIONS_ALLOW_CHANGE_EXPLAIN'	=> 'Définit si les utilisateurs peuvent modifier leur réaction aux messages.',
 	'REACTIONS_ALLOW_MYSELF'			=> 'Autoriser les auto-réactions',
 	'REACTIONS_ALLOW_MYSELF_EXPLAIN'	=> 'Si activé, les utilisateurs pourront réagir à leurs propres messages.',
+	'REACTIONS_ANONYMOUS'				=> 'Réactions anonymes',
+	'REACTIONS_ANONYMOUS_EXPLAIN'		=> 'Activez cette option si vous souhaitez que les noms d’utilisateur n’apparaissent pas dans les listes de réactions.<br />
+		<em>Cette option n\'affecte pas les utilisateurs autorisés à modérer les réactions.</em>',
 	'REACTIONS_BUTTON_POSITION'			=> 'Emplacement des boutons',
 	'REACTIONS_BUTTON_POSITION_EXPLAIN'	=> 'Définit où le bouton pour réagir apparaîtra dans le message.',
 	'REACTIONS_FORCE_ATTACH'			=> 'Forcer la réaction pour afficher les pièces jointes',
 	'REACTIONS_FORCE_ATTACH_EXPLAIN'	=> 'Si activé, les utilisateurs devront réagir à un message pour voir ses pièces jointes.',
 	'REACTIONS_FORCE_REPLY'				=> 'Forcer la réaction pour répondre',
 	'REACTIONS_FORCE_REPLY_EXPLAIN'		=> 'Si activé, les utilisateurs devront réagir au premier message d’un sujet pour pouvoir y répondre.',
+	'REACTIONS_FORUMS'					=> 'Forums où les utilisateurs peuvent réagir',
+	'REACTIONS_FORUMS_EXPLAIN'			=> 'Définit les forums dans lesquels les réactions seront affichées.<br />
+		Si vous n\'en sélectionnez aucune, les réactions seront affichées sur tous les forums.<br />
+		Vous pouvez en sélectionner autant que vous le souhaitez en utilisant la touche <em>Ctrl</em> de votre clavier.',
 	'REACTIONS_LIST_ORDER'				=> 'Ordre d’affichage',
 	'REACTIONS_LIST_ORDER_EXPLAIN'		=> 'Définissez les critères qui seront utilisés pour trier les utilisateurs dans la liste des réactions.',
 	'REACTIONS_ORDER_TIME'				=> 'Date de la réaction',
@@ -73,6 +80,7 @@ $lang = array_merge($lang, [
 	'SCORE_CUSTOM'			=> 'Personnalisée',
 	'SCORE_CUSTOM_VALUE'	=> 'Personnalisée (%s)',
 	'SELECT_COLOUR'			=> 'Selectionnez une couleur',
+	'SET_AS_DEFAULT'		=> 'Définir par défaut',
 
 	'scores' 	=> [
 		1 		=> 'Positive (+1)',

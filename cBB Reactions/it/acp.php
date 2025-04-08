@@ -2,9 +2,9 @@
 /**
  * [Italiano [It]]
  * @package cBB Reactions
- * @version 1.0.3 26/02/2024
+ * @version 1.0.4 01/04/2025
  *
- * @copyright (c) 2024 CaniDev & Lord Phobos
+ * @copyright (c) 2025 CaniDev & Lord Phobos
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -44,12 +44,19 @@ $lang = array_merge($lang, [
 	'REACTIONS_ALLOW_CHANGE_EXPLAIN'	=> 'Definisce se gli utenti possano modificare le loro reazioni ai messaggi.',
 	'REACTIONS_ALLOW_MYSELF'			=> 'Permetti le auto reazioni',
 	'REACTIONS_ALLOW_MYSELF_EXPLAIN'	=> 'Se abilitato, gli utenti saranno in grado di reagire ai propri messaggi.',
+	'REACTIONS_ANONYMOUS'				=> 'Reazioni anonime',
+	'REACTIONS_ANONYMOUS_EXPLAIN'		=> 'Abilita questa opzione se non vuoi che i nomi utente appaiano negli elenchi delle reazioni.<br />
+		<em>Questa opzione non ha effetto sugli utenti autorizzati a moderare le reazioni.</em>',
 	'REACTIONS_BUTTON_POSITION'			=> 'Posizione del pulsante',
 	'REACTIONS_BUTTON_POSITION_EXPLAIN'	=> 'Definisce dove apparirà il pulsante per reagire nel messaggio.',
 	'REACTIONS_FORCE_ATTACH'			=> 'Forza la reazione per vedere gli allegati',
 	'REACTIONS_FORCE_ATTACH_EXPLAIN'	=> 'Se abilitato, gli utenti dovranno reagire ad un messaggio per poterne vedere gli allegati.',
 	'REACTIONS_FORCE_REPLY'				=> 'Forza la reazione per rispondere',
 	'REACTIONS_FORCE_REPLY_EXPLAIN'		=> 'Se abilitato, gli utenti dovranno reagire al primo post in un topic per potervi rispondere.',
+	'REACTIONS_FORUMS'					=> 'orum dove gli utenti possono reagire',
+	'REACTIONS_FORUMS_EXPLAIN'			=> 'Definisce i forum in cui verranno visualizzate le reazioni.<br />
+		Se non selezioni nessuna reazione, le reazioni verranno visualizzate su tutti i forum.<br />
+		Puoi selezionarne quanti ne vuoi usando il tasto <em>Ctrl</em> sulla tastiera.',
 	'REACTIONS_LIST_ORDER'				=> 'Ordine di elenco',
 	'REACTIONS_LIST_ORDER_EXPLAIN'		=> 'Definisce i criteri che verranno utilizzati per elencare gli utenti nella lista delle reazioni.',
 	'REACTIONS_ORDER_TIME'				=> 'Data di reazione',
@@ -66,6 +73,7 @@ $lang = array_merge($lang, [
 	'SCORE_CUSTOM'			=> 'Personalizzato',
 	'SCORE_CUSTOM_VALUE'	=> 'Personalizzato (%s)',
 	'SELECT_COLOUR'			=> 'Seleziona colore',
+	'SET_AS_DEFAULT'		=> 'Imposta come predefinito',
 
 	'scores' 	=> [
 		1 		=> 'Positivo (+1)',

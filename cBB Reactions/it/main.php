@@ -2,9 +2,9 @@
 /**
  * [Italiano [It]]
  * @package cBB Reactions
- * @version 1.0.3 26/02/2024
+ * @version 1.0.4 01/04/2025
  *
- * @copyright (c) 2024 CaniDev & Lord Phobos
+ * @copyright (c) 2025 CaniDev & Lord Phobos
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
@@ -30,9 +30,17 @@ $lang = array_merge($lang, [
 
 	'REACTIONS_NOTIFICATION_TYPE_POST'	=> 'Qualcuno ha reagito ad un messaggio che hai postato',
 
-	'REACTION_SCORE_LABEL_SIMPLE'			=> '%1$s',
-	'REACTION_SCORE_LABEL_COUNT_ONE'		=> '%1$s e un altro utente',
-	'REACTION_SCORE_LABEL_COUNT_MULTIPLE'	=> '%1$s e altri %2$d utenti',
+	'REACTION_SCORE_LABEL_ANONYMOUS'		=> [
+		1	=> '1 utente ha reagito',
+		2	=> '%d utenti hanno reagito',
+	],
+	
+	'REACTION_SCORE_LABEL_SIMPLE'		=> '%1$s',
+	
+	'REACTION_SCORE_LABEL_COUNT'		=> [
+		1	=> '%1$s e un altro utente',
+		2	=> '%1$s e altri %2$d utenti',
+	],
 	
 	'REACTIONS'			=> 'Reazioni',
 	'REACTIONS_ALL'		=> 'Tutte',
