@@ -1,12 +1,12 @@
 <?php
-/*
-* [French [Fr]] translation by Galixte (http://www.galixte.com)
-* @package cBB Chat
-* @version v1.2.4 17/06/2022
-*
-* @copyright (c) 2022 CaniDev
-* @license https://creativecommons.org/licenses/by-nc/4.0/
-*/
+/**
+ * [French [Fr]] translation by Galixte (http://www.galixte.com)
+ * @package cBB Chat
+ * @version 1.2.7 07/03/2025
+ *
+ * @copyright (c) 2025 CaniDev
+ * @license https://creativecommons.org/licenses/by-nc/4.0/
+ */
 
 /**
 * DO NOT CHANGE
@@ -18,10 +18,10 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'CHAT'						=> 'Tchat',
 	'CHAT_APPLY'				=> 'Appliquer',
 	'CHAT_ARCHIVE'				=> 'Archive du tchat',
@@ -70,22 +70,14 @@ $lang = array_merge($lang, array(
 
 	'CUSTOM_DATE'		=> 'Date personnalisée',
 	'EDIT'				=> 'Modifier',
+	'HALF_AN_HOUR'		=> 'Une demi-heure',
 	'NEW_TOPIC'			=> 'Nouveau sujet',
 	'PERMANENT'			=> 'Permanent',
 	'QUOTE'				=> 'Citer',
-	
-	'HALF_AN_HOUR'	=> 'Une demi-heure',
-	'NO_LIMIT'		=> 'Aucune limite',
-	'ONE_DAY'		=> 'Un jour',
-	'ONE_HOUR'		=> 'Une heure',
-	'ONE_WEEK'		=> 'Une semaine',
-	'ONE_MONTH'		=> 'Un mois',
-	'ONE_YEAR'		=> 'Une année',
-	'TWO_YEARS'		=> 'Deux années',
 
 	'CORE_INSTALL_ERROR'	=> 'Vous n\'avez pas téléchargé tous les fichiers du package d\'installation ou essayez d\'installer un ancien package.<br />
 		Assurez-vous de télécharger tous les fichiers. (dossier inclus <em>core</em>) et d\'utiliser un package téléchargé sur le site officiel.',
-));
+]);
 
 // Text language
-$lang = array_merge($lang, array());
+$lang = array_merge($lang, []);

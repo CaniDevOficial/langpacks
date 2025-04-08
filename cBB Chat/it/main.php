@@ -69,18 +69,10 @@ $lang = array_merge($lang, [
 
 	'CUSTOM_DATE'		=> 'Data personalizzata',
 	'EDIT'				=> 'Modifica',
+	'HALF_AN_HOUR'		=> 'Mezz\'ora',
 	'NEW_TOPIC'			=> 'Nuovo argomento',
 	'PERMANENT'			=> 'Permanente',
 	'QUOTE'				=> 'Citazione',
-	
-	'HALF_AN_HOUR'	=> 'Mezz\'ora',
-	'NO_LIMIT'		=> 'Nessun limite',
-	'ONE_DAY'		=> 'Un giorno',
-	'ONE_HOUR'		=> 'Un\'ora',
-	'ONE_WEEK'		=> 'Una settimana',
-	'ONE_MONTH'		=> 'Un mese',
-	'ONE_YEAR'		=> 'Un anno',
-	'TWO_YEARS'		=> 'Due anni',
 
 	'CORE_INSTALL_ERROR'	=> 'Non hai caricato tutti i file del pacchetto di installazione o stai cercando di installare un vecchio pacchetto.<br />
 		Assicurati di caricare tutti i file (inclusa la cartella <em>core</em>) e di utilizzare un pacchetto scaricato dal sito web ufficiale.',

@@ -1,12 +1,12 @@
 <?php
-/*
-* [French [Fr]] translation by Galixte (http://www.galixte.com)
-* @package cBB Chat
-* @version v1.2.4 17/06/2022
-*
-* @copyright (c) 2022 CaniDev
-* @license https://creativecommons.org/licenses/by-nc/4.0/
-*/
+/**
+ * [French [Fr]] translation by Galixte (http://www.galixte.com)
+ * @package cBB Chat
+ * @version 1.2.7 07/03/2025
+ *
+ * @copyright (c) 2025 CaniDev
+ * @license https://creativecommons.org/licenses/by-nc/4.0/
+ */
 
 /**
 * DO NOT CHANGE
@@ -18,10 +18,10 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_CHAT_CONFIG_EXPLAIN'	=> 'Permet de modifier les différentes fonctionnalités du tchat.<br />
 		L’auteur de l’extension: « cBB Chat » vous remercie d’avoir choisi son outil pour votre forum !',
 	'ACP_CHAT_PAGES_EXPLAIN'	=> 'Depuis cette page il est possible de gérer les pages où sera chargé le tchat et son emplacement.',
@@ -178,10 +178,10 @@ $lang = array_merge($lang, array(
 	'ADD_ROOM'					=> 'Créer un salon',
 	'CONTENT'					=> 'Contenu',
 	'CUSTOM_BBCODES'			=> 'BBCodes personnalisés',
-	'CUSTOM_FILE'				=> 'Fichier personnalisé',
-	'CUSTOM_FILES'				=> 'Fichiers personnalisés',
+	'CUSTOM_ROUTE'				=> 'Route personnalisé',
+	'CUSTOM_ROUTES'				=> 'Routes personnalisés',
 	'DEFAULT_BBCODES'			=> 'BBCodes par défaut',
-	'FORUM_FILES'				=> 'Fichiers du forum',
+	'FORUM_ROUTES'				=> 'Routes du forum',
 	'NO_PAGES'					=> 'Pages non disponibles',
 	'NO_ROOM'					=> 'Le salon sélectionné n’existe pas',
 	'NO_TEXTS'					=> 'Textes non disponibles',
@@ -196,4 +196,4 @@ $lang = array_merge($lang, array(
 	'PAGE_ALREADY_EXISTS'	=> 'La page est déjà utilisée.',
 	
 	'REMOVE_ROOM_CONFIRM'	=> 'Confirmer la suppression de ce salon ainsi que tous ses messages.',
-));
+]);
