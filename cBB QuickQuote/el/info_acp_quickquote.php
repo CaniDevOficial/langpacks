@@ -1,10 +1,10 @@
 <?php
 /**
- * [English [En]]
+ * [Greek [El]]
  * @package cBB QuickQuote
- * @version 1.0.3 15/01/2023
+ * @version 1.0.5 08/04/2025
  *
- * @copyright (c) 2023 CaniDev
+ * @copyright (c) 2025 CaniDev
  * @license https://creativecommons.org/licenses/by-nc/4.0/
  */
 
